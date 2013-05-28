@@ -1,9 +1,50 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<header>
+	<h1><a href="/">Jonathan Cremin</a> <small>Looking to get in touch? Email me at <a href="mailto:jonathan@crem.in">jonathan@crem.in</a></small></h1>
+</header>
 
-<div id="post">
-{{ content }}
+<hr />
+
+<div id="main" role="main">
+<div class="post">
+	<h2><a href="{{ page.url }}">{{ page.title }}</a> <small>Published {{ page.date | date_to_string }}</small></h2>
+	
+	<div class="entry">
+	{{ content }}
+	
+	<a id="more" href="{{ page.url }}#disqus">Comments &raquo;</a>
+	</div>
+	
 </div>
+
+<hr />
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="unstyled">
+    {% for post in site.related_posts limit:3 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small> </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'cremin'; // required: replace example with your forum shortname
+
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+	var disqus_identifier = '{{ page.wordpress_id }} {{ page.wordpress_url }}';
+	var disqus_url = 'http://crem.in{{ page.url }}';
+	var disqus_title = "{{ page.title }}";
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments.</a></noscript>
