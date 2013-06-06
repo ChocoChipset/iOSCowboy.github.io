@@ -20,6 +20,4 @@ All conveniently wrapped in a cool singleton with the following interface:
 ```
 
 To make usage clear I've included an example project.
-<center>
 ![TwinkleStar Example Project](/posts_images/2013-06-03-twinkle-star-00.png)
-</center>
