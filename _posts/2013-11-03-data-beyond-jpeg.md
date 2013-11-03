@@ -7,10 +7,10 @@ JPEG files from a digital camera include lots of information beyond the actual p
 
 To simplify the extraction and reading of all those properties, I've programmed **[Bravo](https://github.com/Hecktorzr/Bravo)**, an Objective-C library that extracts all the metadata available from a JPEG image and compiles it under a single NSDictionary object.
 
-It's use requires calling a single method to call: 
+It's use requires calling a single method: 
 
 ```obj-c
 NSDictionary *metadataProperties = [[BRavoExifManager sharedManager] extractMetadataFromJPEG:imageData];
 ```
 
-and is available under the MIT License.
+and the library is available under the MIT License.
