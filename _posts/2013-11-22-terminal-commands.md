@@ -3,7 +3,7 @@ layout: post
 title: Command that Terminal 
 ---
 
-In case somebody else is using the left and right arrows to navigate through typed commands, I've compiled a list of useful commands for the Terminal:
+In case somebody else is using the left and right arrows to navigate through typed commands, I've compiled a list of useful shortcuts for the Terminal:
 
 * ```Ctrl + A```: Go to the beginning of the line.
 * ```Ctrl + E```: Go to the **e**nd of line.
