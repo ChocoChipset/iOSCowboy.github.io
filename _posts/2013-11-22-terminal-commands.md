@@ -19,6 +19,8 @@ In case somebody else is using the left and right arrows to navigate through typ
 * ```Ctrl + L```: **Cl**ears the screen (same result as typing the ```clear``` command).
 * ```Ctrl + C```: Terminate the running program; a timeless classic.
 
+**Edit:** As noted by Parker Wightman ([@parkerwightman](https://twitter.com/parkerwightman)), these same key bindings work in nearly every OSX text field.
+
 As I grow older I found myself more and more comfortable working from the OSX Terminal, but I was annoyed by the "missing commands to navigate through the text"... 
 Until I discovered them recently and my mind was blown. 
 
