@@ -1,9 +1,9 @@
-[hecktorzr.github.io](http://hecktorzr.github.io)
+[iOSCowboy.github.io](http://ioscowboy.com)
 ===================
 
-A small personal blog about iOS and Objective-C. 
+My small personal blog about iOS and Objective-C. 
 
-Written and maintained by Hector Zarate.
+Written by Hector Zarate.
 
 Contact
 -------
