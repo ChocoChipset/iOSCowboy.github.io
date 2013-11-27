@@ -8,7 +8,7 @@ Written by Hector Zarate.
 Contact
 -------
 
-* [@hecktorzr](http://twitter.com/hecktorzr)
+* [@iOSCowboy](http://twitter.com/iOSCowboy)
 * hecktorzr.at.gmail.com
 
 License
