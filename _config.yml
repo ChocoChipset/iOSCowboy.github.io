@@ -1,3 +1,5 @@
 name: Hector Zarate. iOS Cowboy.
 markdown: redcarpet 
+timezone: Europe/Berlin
 paginate: 4
+paginate_path: "blog/page:num"
