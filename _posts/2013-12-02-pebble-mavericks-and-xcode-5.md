@@ -100,7 +100,9 @@ After stumbling a few times while setting up my development environment to write
 
 5. Also in the Info.plist file,  add the value *App communicates with an accessory* to the *Required background modes* array. 
 
-6. In the Build Settings of your project, change ```$(ARCHS_STANDARD_INCLUDING_64_BIT)``` for ```$(ARCHS_STANDARD)```. Otherwise, you will bump in the following error:
+6. In the Build Settings of your project, change Architecture's value from  ```$(ARCHS_STANDARD_INCLUDING_64_BIT)``` to ```$(ARCHS_STANDARD)```. 
+
+	Otherwise, you will bump in the following error:
 
 	````
 	Undefined symbols for architecture x86_64:
