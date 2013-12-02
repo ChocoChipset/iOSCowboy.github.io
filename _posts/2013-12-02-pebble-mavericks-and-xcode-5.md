@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting Up Pebble Smart-watch, Xcode 5, iOS and OS X Mavericks
+title: Pebble Smart-watch, Xcode 5 and OS X Mavericks
 ---
 
 After stumbling a few times while setting up my development environment to write my first application for the Pebble Smart-watch, I decided to write a step-by-step guide on the topic to save time and sanity to other developers coding their first application for Pebble using Xcode 5 under OS X Mavericks and iOS.
@@ -22,6 +22,7 @@ After stumbling a few times while setting up my development environment to write
 0. Be sure you have opened the iOS Pebble app v2.x at least once. 
 
 1. Put your Pebble in Recovery Mode: Press the Back button, the Up button and the Select button for at least 30 seconds until you see “Loading…” on the screen. 
+
 	Don't let that 'Pebble' screen fool you! Keep pressing those buttons until you see *Loading...*.
 
 2. Repair your Pebble to your iOS device's bluetooth,
@@ -29,21 +30,27 @@ After stumbling a few times while setting up my development environment to write
 3. If your device suggests that an upgrade is available, refuse the upgrade,
 
 4. Open one of the following links from your iOS device. Your phone will start upgrading your Pebble.
+
 	If your serial number starts with a number, [download Pebble Firmware 2.0-BETA2 for v1_5.](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-ev2_4.pbz).
+
 	If your serial number starts with the letter *Q*, [download Pebble Firmware 2.0-BETA2 for ev2_4](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-v1_5.pbz).
 
 # Things You Need In Your Computer
 
 1. Install the Xcode Command Line Tools by typing the following command in the Terminal[1]: 
+
 	```
 	xcode-select --install
 	```
+
 	If you have problems installing them via this command (*'Can't install the software because it is not currently available from the Software Update server'* error), download the installer manually from the [Developer Center](https://developer.apple.com/downloads/index.action).
+	
 	**Don't skip this step!** The Command Line Tools are not installed by default in Xcode 5.
 	
 2. Download the latest version of the Pebble SDK. Go and grab it from the *[Getting Started Guide](https://developer.getpebble.com/2/getting-started/)*, there is big orange button that reads 'PEBBLE SDK'.
 
 3. Create a directory for all Pebble tools:
+
 	```
 	mkdir ~/pebble-dev/
 	```
@@ -51,11 +58,13 @@ After stumbling a few times while setting up my development environment to write
 4. Unzip the Pebble SDK inside that directory. You should end with something like:  ```~/pebble-dev/PebbleSDK-2.0-BETA2```. 
 
 5. Add the Pebble tool to your command line:
+
 	```
 	echo 'export PATH=~/pebble-dev/PebbleSDK-2.0-BETA2/bin:$PATH' >> ~/.bash_profile
 	```
 	
 6. Reload your shell configuration to make it available immediately 
+
 	```
 	source ~/.bash_profile
 	```
@@ -65,11 +74,13 @@ After stumbling a few times while setting up my development environment to write
 8. Extract the compressed file inside ```~/pebble-dev/PebbleSDK-2.0-BETA2```.  Be sure you end with something like: ```~/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools```.
 
 9. Install the Python packet manager, pip:
+
 	```
 	sudo easy_install pip
 	```
 
 10. And all the Python dependencies used by Pebble:
+
 	```
 	 pip install --user -r ~/pebble-dev/PebbleSDK-2.0-BETA2/requirements.txt
 	 ```
