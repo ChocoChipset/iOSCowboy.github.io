@@ -102,7 +102,7 @@ After stumbling a few times while setting up my development environment to write
 
 6. In the Build Settings of your project, change Architecture's value from  ```$(ARCHS_STANDARD_INCLUDING_64_BIT)``` to ```$(ARCHS_STANDARD)```. 
 
-	Otherwise, you will bump in the following error:
+	Otherwise, you will bump with the following error:
 
 	````
 	Undefined symbols for architecture x86_64:
