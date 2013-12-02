@@ -5,7 +5,7 @@ title: Pebble Smart-watch, Xcode 5 and OS X Mavericks
 
 After stumbling a few times while setting up my development environment to write my first application for the Pebble Smart-watch, I decided to write a step-by-step guide on the topic to save time and sanity to other developers coding their first application for Pebble using Xcode 5 under OS X Mavericks and iOS.
 
-# Things You Need In Your iOS Device
+## Things You Need In Your iOS Device
 
 0. Update to iOS 7 just to be sure.
 
@@ -17,7 +17,7 @@ After stumbling a few times while setting up my development environment to write
 3. Return to the home screen and open the Pebble app. 
 	Select 'Developer Connection' and enable it.
 
-# Things You Need In Your Pebble Smart-Watch
+## Things You Need In Your Pebble Smart-Watch
 
 0. Be sure you have opened the iOS Pebble app v2.x at least once. 
 
@@ -35,7 +35,7 @@ After stumbling a few times while setting up my development environment to write
 
 	If your serial number starts with the letter *Q*, [download Pebble Firmware 2.0-BETA2 for ev2_4](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-v1_5.pbz).
 
-# Things You Need In Your Computer
+## Things You Need In Your Computer
 
 1. Install the Xcode Command Line Tools by typing the following command in the Terminal[1]: 
 
@@ -88,7 +88,7 @@ After stumbling a few times while setting up my development environment to write
 	 If this last step fails, it is probably because you don't have the Xcode Command Line Tools installed.
 	 
 
-# Things You Need In Your Xcode Project
+## Things You Need In Your Xcode Project
 
 1. Include ```PebbleKit.framework``` and  ```PebbleVendor.framework``` in your Xcode project.
 
