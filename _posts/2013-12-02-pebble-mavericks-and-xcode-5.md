@@ -3,16 +3,16 @@ layout: post
 title: Pebble Smart-watch, Xcode 5 and OS X Mavericks
 ---
 
-After stumbling a few times while setting up my development environment to write my first application for the Pebble Smart-watch, I decided to write a step-by-step guide on the topic to save time and sanity to other developers coding their first application for Pebble using Xcode 5 under OS X Mavericks and iOS.
+After stumbling a few times while setting up my development environment  for the Pebble Smart-watch, I decided to write a step-by-step guide on the topic to save time and sanity to other developers coding their first application for Pebble using Xcode 5 under OS X Mavericks and iOS.
 
-## Things You Need In Your iOS Device
+## Things You'll Will Need In Your iOS Device
 
 0. Update to iOS 7 just to be sure.
 
 1. **Don't bother downloading the Pebble app from the App Store (v1.x)**. You need to [submit a form](https://docs.google.com/a/pulse-dev.net/forms/d/14r3MHPsdH5ha-BCkfuquQuAKuQSEJLmxm--XXpBA8mg/viewform) to receive an .ipa with the 2.x version.
 
 2. After receiving the .ipa file with the Pebble app v2.x, install it. 
-	Open the device's *Settings* app, select *Pebble* and enable 'Developer Mode'. 
+	Open your device's *Settings* app, select *Pebble* and enable 'Developer Mode'. 
 
 3. Return to the home screen and open the Pebble app. 
 	Select 'Developer Connection' and enable it.
@@ -21,23 +21,23 @@ After stumbling a few times while setting up my development environment to write
 
 0. Be sure you have opened the iOS Pebble app v2.x at least once. 
 
-1. Put your Pebble in Recovery Mode: Press the Back button, the Up button and the Select button for at least 30 seconds until you see “Loading…” on the screen. 
+1. Put your Pebble in Recovery Mode: Press the Back button, the Up button and the Select button for at least 30 seconds until you see 'Loading…' on the screen. 
 
-	Don't let that 'Pebble' screen fool you! Keep pressing those buttons until you see *Loading...*.
+	Don't let that 'Pebble' screen fool you! Keep pressing those buttons until you can read 'Loading...'.
 
-2. Repair your Pebble to your iOS device's bluetooth,
+2. Re-pair your Pebble with your iOS device's bluetooth.
 
-3. If your device suggests that an upgrade is available, refuse the upgrade,
+3. If your device suggests that an upgrade is available, refuse the upgrade.
 
-4. Open one of the following links from your iOS device. Your phone will start upgrading your Pebble.
+4. Open one of the following links from your iOS device, your phone will start upgrading your Pebble:
 
-	If your serial number starts with a number, [download Pebble Firmware 2.0-BETA2 for v1_5.](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-ev2_4.pbz).
+	* If your serial number starts with a number, [download Pebble Firmware 2.0-BETA2 for v1_5.](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-ev2_4.pbz).
 
-	If your serial number starts with the letter *Q*, [download Pebble Firmware 2.0-BETA2 for ev2_4](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-v1_5.pbz).
+	* If your serial number starts with the letter *Q*, [download Pebble Firmware 2.0-BETA2 for ev2_4](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-v1_5.pbz).
 
 ## Things You Need In Your Computer
 
-1. Install the Xcode Command Line Tools by typing the following command in the Terminal[1]: 
+1. Install the Xcode Command Line Tools by typing the following command in the Terminal:
 
 	```
 	xcode-select --install
@@ -71,7 +71,7 @@ After stumbling a few times while setting up my development environment to write
 	
 7. Download the toolchain for OS X ([arm-cs-tools-macos-universal-static.tar.gz](http://assets.getpebble.com.s3-website-us-east-1.amazonaws.com/sdk/arm-cs-tools-macos-universal-static.tar.gz)).
 
-8. Extract the compressed file inside ```~/pebble-dev/PebbleSDK-2.0-BETA2```.  Be sure you end with something like: ```~/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools```.
+8. Extract that compressed file inside ```~/pebble-dev/PebbleSDK-2.0-BETA2```.  Be sure you end with something like: ```~/pebble-dev/PebbleSDK-2.0-BETA2/arm-cs-tools```.
 
 9. Install the Python packet manager, pip:
 
