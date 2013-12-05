@@ -31,9 +31,9 @@ After stumbling a few times while setting up my development environment  for the
 
 4. Open one of the following links from your iOS device, your phone will start upgrading your Pebble:
 
-	* If your serial number starts with a number, [download Pebble Firmware 2.0-BETA2 for v1_5.](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-ev2_4.pbz).
+	If your serial number starts with a number, [download Pebble Firmware 2.0-BETA2 for ev2_4.](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-ev2_4.pbz).
 
-	* If your serial number starts with the letter *Q*, [download Pebble Firmware 2.0-BETA2 for ev2_4](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-v1_5.pbz).
+	If your serial number starts with the letter *Q*, [download Pebble Firmware 2.0-BETA2 for v1_5](https://developer.getpebble.com/2/download/Pebble-2.0-BETA2-v1_5.pbz).
 
 ## Things You Need In Your Computer
 
