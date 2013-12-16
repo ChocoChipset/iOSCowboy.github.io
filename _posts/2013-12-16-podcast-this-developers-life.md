@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Podcast: This Developer's Life
+title: Podcast - This Developer's Life
 ---
 
 For this week I would like to recommend a podcast that I've been enjoying during this winter: [This Developer's Life](http://thisdeveloperslife.com). 
