@@ -4,7 +4,7 @@ title: Renaming Variables in Xcode
 ---
 
 For both persons and programming variables, a good name is an invitation to a prosperous life.
-Luckily for your Objective-C variables, their name is easier than the legal trouble of changing your own name to 'Max Power'.
+Luckily for your Objective-C variables, changing their name is easier than the legal trouble of changing your own name to 'Max Power'.
 
 Find out how: 
 
