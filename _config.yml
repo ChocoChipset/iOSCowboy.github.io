@@ -3,3 +3,8 @@ markdown: redcarpet
 timezone: Europe/Berlin
 paginate: 4
 paginate_path: "blog/page:num"
+
+analytics:
+  provider: google
+  google:
+    tracking_id: 'UA-46675146-1'
