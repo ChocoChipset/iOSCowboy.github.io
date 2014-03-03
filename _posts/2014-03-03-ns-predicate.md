@@ -3,9 +3,9 @@ layout: post
 title: Optimizing NSPredicates 
 ---
 
-This week I'm gonna throw a few strategies you can use to improve the performance of your NSPredicates — either in Core Data or while filtering a collection like NSArray.
+This week I'm gonna throw three strategies you can use to improve the performance of your NSPredicates — either in Core Data or while filtering a collection like ```NSArray```.
 
-If things are *really* slow, there are probably other places where  you should be focusing but, let's assume you have already done that. ;) 
+If things are *really* slow though, there are probably other places where you should be focusing, but let's assume you have already done that. ;) 
 
 
 Avoid Wildcards
