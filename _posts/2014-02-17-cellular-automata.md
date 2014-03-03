@@ -15,7 +15,7 @@ Finally, a particular state in time of the grid is called *generation*.
 
 And this is how a two dimensional cellular automata looks (know that they can happen in any number of dimensions):
 
-![Animation](https://raw.github.com/iOSCowboy/GameOfLife/master/Images/Example.gif?token=612990__eyJzY29wZSI6IlJhd0Jsb2I6aU9TQ293Ym95L0dhbWVPZkxpZmUvbWFzdGVyL0ltYWdlcy9FeGFtcGxlLmdpZiIsImV4cGlyZXMiOjEzOTMyNDkwMTB9--a61de5ef0c1378ec78ae0207d34eee65122e3a5e)
+![Animation](https://raw.github.com/iOSCowboy/GameOfLife/master/Images/Example.gif)
 
 Indeed! With some imagination they do look like cells partying like it's Friday! 
 
