@@ -3,7 +3,7 @@ layout: post
 title: Integrating Xcode Bots and Crashlytics Beta
 ---
 
-If you have already setup Xcode Bots for your iOS project, you can step up your Continuos Integration game by hooking-up Xcode Bots to Crashlytics Beta distribution.
+If you have already setup Xcode Bots for your iOS project, you can step up your Continuos Integration game even more by hooking-up Xcode Bots to [Crashlytics Beta](http://try.crashlytics.com/beta/) distribution.
 
 This guide assumes you have a Crashlytics account and that  already have a working Bot outputting signed IPA files. This means, your Integrations should have 'Build Results' and they should contain an .ipa artifact:
 
@@ -34,24 +34,20 @@ From the Crashlytics dashboard, you can find them in Settings > Organizations > 
     "${XCS_SOURCE_DIR}/<CRASHLYTICS_PATH>/Crashlytics.framework/submit"  <API_KEY> <BUILD_SECRET> -ipaPath "${XCS_OUTPUT_DIR}/${XCS_PRODUCT}"
     ```
     
-    A brief explanation on the arguents: 
+    About the command and its arguments: 
     
-    **"${XCS_SOURCE_DIR}/<CRASHLYTICS_PATH>/Crashlytics.framework/submit"**: 
+    `"${XCS_SOURCE_DIR}/<CRASHLYTICS_PATH>/Crashlytics.framework/submit"`: 
     
     If the Crashlytics framework is somewhere in your repository (it should), this is the way to get it. 
     Avoid  accessing it directly from your User's path, the Bot user will most likely not have execute permissions to run it (that's why we want the 'checked out' version from the repo).
         
-    Example: if the framework is under a *source/vendor* path of your repo, the path in your script would look like this:
-        
-    ```
-    "${XCS_SOURCE_DIR}/source/vendor/Crashlytics.framework/submit"
-    ```
+    Example: if the framework is under a *source/vendor* path of your repo, the path in your script would look like `"${XCS_SOURCE_DIR}/source/vendor/Crashlytics.framework/submit"`.
     
-   **API_Key** and **BUILD_SECRET**:  Are the keys from your account. 
+   `API_Key` and `BUILD_SECRET` are the keys from your account. 
     
-    **-ipaPath "${XCS_OUTPUT_DIR}/${XCS_PRODUCT}"**: This will point to the .ipa artifact of your build located in the output directory of the Bot.
+    `-ipaPath "${XCS_OUTPUT_DIR}/${XCS_PRODUCT}"`: This will point to the .ipa artifact of your build located in the output directory of the Bot.
    
-6. Make an integration! Your build should be available in Crashlytics now. 
+6. Make a new integration! Your build should be available in Crashlytics now. 
 
 
 The `submit` command has a few other parameters that may be of use to you. 
