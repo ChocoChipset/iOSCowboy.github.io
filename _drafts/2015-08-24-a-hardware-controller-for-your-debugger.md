@@ -3,9 +3,9 @@ layout: post
 title: Using a hardware controller in your debugger
 ---
 
-Back when I was active recording my own music ([SoundCloud in case you are curious](https://soundcloud.com/yuniper),) I always used a hardware knob to navigate and control Logic.
+Back when I was active recording my own music ([SoundCloud in case you are curious](https://soundcloud.com/yuniper)) I always used a hardware knob to navigate and control Logic.
 
-It was a very simple device ([a knob which is also a big button]((http://griffintechnology.com/powermate)) but incredibly useful. So I thought: if it was so wonderful with music software, perhaps it can make an IDE suck less. 
+It was a very simple device ([a knob which is also a big button](http://griffintechnology.com/powermate)) but incredibly useful. So I thought: if it was so wonderful with music software, perhaps it can make an IDE suck less. 
 
 The problem that I wanted to solve was the constant switching between clicking the simulator (or taping a real device) and typing the common two-handed shortcuts  you need while debugging in Xcode: Pause, Step Over, Step Into, etc. 
 
