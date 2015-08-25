@@ -13,7 +13,7 @@ My main problem was the constant switching between clicking the simulator (or ta
 
 I browsed MIDI controllers and video control surfaces, and bought a [Contour Shuttle-Xpress](http://ergo.contour-design.com/ergonomic-mouse/shuttlexpress) after a little research. It's small, inexpensive and comes with a dial and more than enough buttons. 
 
-![Shuttle-Xpress](../posts_images/2015-08-24-01.png)
+![Shuttle-Xpress](/posts_images/2015-08-24-01.png)
 
 Other options I considered were: 
 
