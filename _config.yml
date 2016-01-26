@@ -1,5 +1,13 @@
+# Setup
+title:            iOS Cowboy
+tagline:          iOS Cowboy
+description:      My small personal blog about iOS and Objective-C. Written by Hector Zarate.
+url:              http://ioscowboy.com
+baseurl:          /
+
+
 name: Hector Zarate. iOS Cowboy.
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, redcarpet, jekyll-gist, pygments.rb]
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
@@ -7,6 +15,9 @@ timezone: Europe/Berlin
 paginate: 4
 paginate_path: "blog/page:num"
 future: true
+
+# Permalinks
+relative_permalinks: false
 
 analytics:
   provider: google
